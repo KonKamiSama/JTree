@@ -16,10 +16,7 @@ public class Controller {
         this.model = model;
         this.view = view;
         
-        // Thêm sự kiện cho nút Open
         view.getOpenButton().addActionListener(this::onOpen);
-        
-        // Thêm sự kiện cho nút Save
         view.getSaveButton().addActionListener(this::onSave);
     }
 
