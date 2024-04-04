@@ -29,8 +29,7 @@ public class Model {
     public String getText() {
         return String.join("\n", lines);	
     }
-
-    // Đệ quy duyệt thư mục - sẽ trả về danh sách các file trong thư mục
+    
     public List<Path> listFiles(Path path) throws IOException {
         if (!Files.isDirectory(path)) {
             return Collections.emptyList();
