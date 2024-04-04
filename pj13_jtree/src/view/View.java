@@ -27,8 +27,7 @@ public class View {
         frame.pack();
         frame.setLocationRelativeTo(null);
     }
-
-    // Getter và các phương thức để thêm sự kiện cho button
+    
     public JFrame getFrame() {
         return frame;
     }
